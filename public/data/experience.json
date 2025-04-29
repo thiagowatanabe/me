@@ -1,0 +1,36 @@
+[
+    {
+        "company": {
+          "pt": "Empresa B",
+          "en": "Company B",
+          "logo":""
+        },
+        "position": {
+          "pt": "Desenvolvedor Backend",
+          "en": "Backend Developer"
+        },
+        "period": "Jan 2021 - Present",
+        "description": {
+          "pt": "Desenvolvimento de APIs em Node.js e gerenciamento de banco de dados.",
+          "en": "Developing APIs in Node.js and managing databases."
+        }
+      },
+    {
+      "company": {
+        "pt": "Empresa A",
+        "en": "Company A",
+        "logo":""
+      },
+      "position": {
+        "pt": "Desenvolvedor Frontend",
+        "en": "Frontend Developer"
+      },
+      "period": "Jan 2020 - Dez 2021",
+      "description": {
+        "pt": "Desenvolvi diversas interfaces e trabalhei com ReactJS.",
+        "en": "Developed various interfaces and worked with ReactJS."
+      }
+    }
+    
+  ]
+  

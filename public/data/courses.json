@@ -1,0 +1,33 @@
+[
+  {
+    "title": {
+      "pt": "Pós-graduação em Desenvolvimento Web",
+      "en": "Postgraduate in Web Development"
+    },
+    "institution": {
+      "pt": "Faculdade ABC",
+      "en": "ABC College"
+    },
+    "period": "2017 - 2018",
+    "description": {
+      "pt": "Especialização em tecnologias web modernas como React, Node.js e APIs REST.",
+      "en": "Specialization in modern web technologies such as React, Node.js, and REST APIs."
+    }
+  },
+    {
+      "title": {
+        "pt": "Graduação em Sistemas de Informação",
+        "en": "Bachelor in Information Systems"
+      },
+      "institution": {
+        "pt": "Universidade XYZ",
+        "en": "XYZ University"
+      },
+      "period": "2012 - 2016",
+      "description": {
+        "pt": "Curso focado em desenvolvimento de software, banco de dados e engenharia de software.",
+        "en": "Course focused on software development, databases, and software engineering."
+      }
+    }
+  ]
+  

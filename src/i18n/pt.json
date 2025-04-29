@@ -1,0 +1,21 @@
+{
+    "menu": {
+      "title":"Inovações Tecnológicas",
+      "home": "Início",
+      "projects": "Projetos",
+      "about": "Sobre",
+      "contact": "Contato",
+      "experience":"Experiência Profissional",
+      "courses": "Cursos"
+    },
+    "home": {
+      "greeting": "Olá, eu sou um desenvolvedor de software.",
+      "intro": "Bem-vindo ao meu portfólio!",
+      "viewProjects": "Ver Projetos"
+    },
+    "projects": {
+      "title": "Meus Projetos",
+      "view": "Ver no GitHub"
+    }
+  }
+  
