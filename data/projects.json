@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": {
+        "pt": "Sistema de Vendas",
+        "en": "Sales System"
+      },
+      "description": {
+        "pt": "Projeto completo de controle de vendas e estoque.",
+        "en": "Complete project for sales and inventory management."
+      },
+      "imageUrl": "https://via.placeholder.com/150",
+      "link": "https://github.com/seuusuario/sistema-vendas"
+    },
+    {
+      "id": 2,
+      "title": {
+        "pt": "Portfólio",
+        "en": "Portfolio"
+      },
+      "description": {
+        "pt": "Meu site pessoal com projetos e contato.",
+        "en": "My personal site with projects and contact."
+      },
+      "imageUrl": "https://via.placeholder.com/150",
+      "link": "https://github.com/seuusuario/portfolio"
+    },
+    {
+      "id": 3,
+      "title": {
+        "pt": "Portfólio",
+        "en": "Portfolio"
+      },
+      "description": {
+        "pt": "Meu site pessoal com projetos e contato.",
+        "en": "My personal site with projects and contact."
+      },
+      "imageUrl": "https://via.placeholder.com/150",
+      "link": "https://github.com/seuusuario/portfolio"
+    }
+  ]
+  
