@@ -20,7 +20,7 @@ export const Projects: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
-    fetch('/data/projects.json')
+    fetch('./data/projects.json')
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

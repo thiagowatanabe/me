@@ -18,7 +18,7 @@ export const Courses: React.FC = () => {
   const [courses, setCourses] = useState<CourseItem[]>([]);
 
   useEffect(() => {
-    fetch('/data/courses.json')
+    fetch('./data/courses.json')
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);

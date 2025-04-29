@@ -18,7 +18,7 @@ export const Experience: React.FC = () => {
   const [experiences, setExperiences] = useState<ExperienceItem[]>([]);
 
   useEffect(() => {
-    fetch('/data/experience.json')
+    fetch('./data/experience.json')
       .then((res) => res.json())
       .then((data) => setExperiences(data));
   }, []);

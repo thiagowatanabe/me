@@ -76,7 +76,15 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, darkMode }) => {
             </Typography>
           )}
 
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, justifyContent: isMobile ? 'flex-end' : 'space-between', width: '100%' }}>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: isMobile ? 1 : 2, // Menos espaçamento no mobile e mais no desktop
+              justifyContent: 'flex-end', // Alinha os itens à direita
+              width: '100%'
+            }}
+          >
             {isMobile && (
               <>
                 <Select
