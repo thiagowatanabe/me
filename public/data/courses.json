@@ -5,13 +5,13 @@
       "en": "Postgraduate in Web Development"
     },
     "institution": {
-      "pt": "Faculdade ABC",
-      "en": "ABC College"
+      "pt": "Faculdade de Tecnologia de Rio Preto - FATEC",
+      "en": "Rio Preto College of Technology - FATEC"
     },
     "period": "2017 - 2018",
     "description": {
-      "pt": "Especialização em tecnologias web modernas como React, Node.js e APIs REST.",
-      "en": "Specialization in modern web technologies such as React, Node.js, and REST APIs."
+      "pt": "Curso de Pós-Graduação em Consultoria Web.",
+      "en": "Postgraduate Course in Web Consulting."
     }
   },
     {
@@ -20,13 +20,13 @@
         "en": "Bachelor in Information Systems"
       },
       "institution": {
-        "pt": "Universidade XYZ",
-        "en": "XYZ University"
+        "pt": "Faculdade UniFaime",
+        "en": "College UniFaime"
       },
-      "period": "2012 - 2016",
+      "period": "2007 - 2010",
       "description": {
-        "pt": "Curso focado em desenvolvimento de software, banco de dados e engenharia de software.",
-        "en": "Course focused on software development, databases, and software engineering."
+        "pt": "Bacharel em Sistemas de Informação.",
+        "en": "Bachelor's Degree in Information Systems."
       }
     }
   ]

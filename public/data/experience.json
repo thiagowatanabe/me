@@ -1,36 +1,67 @@
 [
     {
         "company": {
-          "pt": "Empresa B",
-          "en": "Company B",
+          "pt": "Rock Encantech",
+          "en": "Rock Encantech",
           "logo":""
         },
         "position": {
-          "pt": "Desenvolvedor Backend",
-          "en": "Backend Developer"
+          "pt": "Especialista em Desenvolvimento",
+          "en": "Development Specialist"
         },
-        "period": "Jan 2021 - Present",
+        "period": "Mar 2025 - Present",
         "description": {
-          "pt": "Desenvolvimento de APIs em Node.js e gerenciamento de banco de dados.",
-          "en": "Developing APIs in Node.js and managing databases."
+          "pt": "<b>Função:</b> Responsável por manter e desenvolver o sistema de CRM.<br/><b>Objetivo:</b> Sistema desenvolvido para permitir que varejistas criem seu próprio programa de fidelidade.",
+          "en": "<b>Role:</b> Responsible for maintaining and developing the CRM system.<br/><b>Purpose:/<b> System developed to enable retailers to create their own loyalty program."
         }
       },
     {
       "company": {
-        "pt": "Empresa A",
-        "en": "Company A",
+        "pt": "GS Ciência do Consumo",
+        "en": "GS Ciência do Consumo",
         "logo":""
       },
       "position": {
-        "pt": "Desenvolvedor Frontend",
-        "en": "Frontend Developer"
+        "pt": "Líder de tecnologia e desenvolvedor de software",
+        "en": "Tech Lead and Software Developer"
       },
-      "period": "Jan 2020 - Dez 2021",
+      "period": "Jan 2020 - Fev 2025",
       "description": {
-        "pt": "Desenvolvi diversas interfaces e trabalhei com ReactJS.",
-        "en": "Developed various interfaces and worked with ReactJS."
+        "pt": "Responsável pela manutenção e desenvolvimento do sistema, bem como pela gestão da equipe.",
+        "en": "Responsible for system maintenance and development, as well as team management."
+      }
+    },
+    {
+      "company": {
+        "pt": "GS Ciência do Consumo",
+        "en": "GS Ciência do Consumo",
+        "logo":""
+      },
+      "position": {
+        "pt": "Desenvolvedor de software",
+        "en": "Software Developer"
+      },
+      "period": "Jan 2018 - Fev 2020",
+      "description": {
+        "pt": "Manutenção e desenvolvimento de novas funcionalidades.",
+        "en": "Maintenance and development of new features."
+      }
+    },
+    {
+      "company": {
+        "pt": "GS Ciência do Consumo",
+        "en": "GS Ciência do Consumo",
+        "logo":""
+      },
+      "position": {
+        "pt": "Desenvolvedor de software",
+        "en": "Software Developer"
+      },
+      "period": "Jan 2015 - Dez 2018",
+      "description": {
+        "pt": "<b>Projeto</b>: GVendas<br/><b>Função</b>: Manutenção e desenvolvimento de novas funcionalidades.<br/><b>Objetivo</b>: Sistema para gestão de vendas de incorporadoras, abrangendo desde a captura de leads até a geração de contratos com clientes.",
+        "en": "<b>Project</b>: GVendas<br/><b>Role</b>: Maintenance and development of new features.<br/><b>Purpose</b>: System for managing real estate developers' sales, covering everything from lead capture to contract generation with clients."
       }
     }
-    
   ]
   

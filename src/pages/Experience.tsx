@@ -4,6 +4,7 @@ import { useTranslation as Transaltion } from '../i18n/useTranslation';
 import { useTranslation } from 'react-i18next';
 import { getLocalizedText } from '../utils/getLocalizedText';
 import WorkIcon from '@mui/icons-material/Work';
+import { renderRichText } from '../utils/renderWithBreaks';
 
 interface ExperienceItem {
   company: { pt: string; en: string; logo?: string }; // logo opcional
@@ -53,7 +54,7 @@ export const Experience: React.FC = () => {
                 }
                 secondary={
                   <Typography variant="body1">
-                    {getLocalizedText(exp.description, i18n.language)}
+                    {renderRichText(getLocalizedText(exp.description, i18n.language))}
                   </Typography>
                 }
               />
