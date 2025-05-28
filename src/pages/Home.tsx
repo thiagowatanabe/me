@@ -1,39 +1,62 @@
-import { Avatar, Button, Typography, Container } from '@mui/material';
+import {
+  Avatar,
+  Button,
+  Typography,
+  Container,
+  Stack,
+  useMediaQuery,
+  useTheme,
+} from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { ReactTyped } from 'react-typed';
 import { Link } from 'react-router-dom';
-import profileImage from '../assets/profile.png'; // Certifique-se que essa imagem existe
+import profileImage from '../assets/profile.png';
 
 export const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
-  const typedStrings = i18n.language === 'pt'
-    ? [
-        'Desenvolvedor fullstack.',
-        'Especialista em C# e AWS.',
-        'Amante de React e interfaces criativas.'
-      ]
-    : [
-        'Fullstack developer.',
-        'Specialist in C# and AWS.',
-        'Passionate about React and creative UIs.'
-      ];
+  const typedStrings =
+    i18n.language === 'pt'
+      ? [
+          'Desenvolvedor fullstack.',
+          'Especialista em C# e AWS.',
+          'Amante de React e interfaces criativas.',
+          'Transformo ideias em sistemas modernos e escaláveis.'
+        ]
+      : [
+          'Fullstack developer.',
+          'Specialist in C# and AWS.',
+          'Passionate about React and creative UIs.',
+          'Transforming ideas into modern, scalable software solutions.'
+        ];
 
   return (
-    <Container maxWidth="md" sx={{ textAlign: 'center', mt: 10 }}>
+    <Container
+      maxWidth="md"
+      sx={{
+        textAlign: 'center',
+        mt: { xs: 8, md: 12 },
+        px: 2,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}
+    >
+      {/* Avatar com animação */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
       >
         <Avatar
-          alt="Minha Foto"
+          alt="Thiago Watanabe"
           src={profileImage}
           sx={{
             width: 150,
             height: 150,
-            margin: '0 auto',
             mb: 3,
             boxShadow: 6,
             border: '3px solid white',
@@ -41,22 +64,38 @@ export const Home: React.FC = () => {
         />
       </motion.div>
 
+      {/* Nome e título */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <Typography variant="h3" component="h1" gutterBottom>
-          {t('home.greeting')}
+        <Typography
+          variant={isSmallScreen ? 'h4' : 'h3'}
+          component="h1"
+          gutterBottom
+          fontWeight={600}
+        >
+          Thiago Watanabe
+        </Typography>
+
+        <Typography
+          variant="h6"
+          color="text.secondary"
+          gutterBottom
+          fontWeight={400}
+        >
+          Full Stack Developer • C# | ReactJS | AWS
         </Typography>
       </motion.div>
 
+      {/* Texto digitado com animação lateral */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, duration: 1 }}
+        initial={{ opacity: 0, x: -30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1, duration: 0.8 }}
       >
-        <Typography variant="h5" color="text.secondary" sx={{ mt: 2 }}>
+        <Typography variant="h6" color="text.secondary" sx={{ mt: 2 }}>
           <ReactTyped
             strings={typedStrings}
             typeSpeed={50}
@@ -69,20 +108,41 @@ export const Home: React.FC = () => {
         </Typography>
       </motion.div>
 
+      {/* Botões de ação */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.5, duration: 0.8 }}
       >
-        <Button
-            component={Link} to="/projects"
-          variant="contained"
-          size="large"
-          color="secondary"
+        <Stack
+          direction={isSmallScreen ? 'column' : 'row'}
+          spacing={2}
           sx={{ mt: 4 }}
+          justifyContent="center"
         >
-          {t('home.viewProjects')}
-        </Button>
+          <Button
+            component={Link}
+            to="/projects"
+            variant="contained"
+            color="secondary"
+            size="large"
+            aria-label="Ver projetos"
+          >
+            {t('home.viewProjects')}
+          </Button>
+
+          <Button
+            component="a"
+            href="/ThiagoWatanabe-CV.pdf" // substitua pelo caminho do seu currículo
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="outlined"
+            size="large"
+            aria-label="Baixar currículo"
+          >
+            {t('home.downloadCV')}
+          </Button>
+        </Stack>
       </motion.div>
     </Container>
   );

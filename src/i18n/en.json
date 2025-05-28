@@ -11,7 +11,8 @@
     "home": {
       "greeting": "Hi, I'm a software developer.",
       "intro": "Welcome to my portfolio!",
-      "viewProjects": "View Projects"
+      "viewProjects": "View Projects",
+      "downloadCV": "Download CV"
     },
     "projects": {
       "title": "My Projects",
