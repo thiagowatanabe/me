@@ -15,7 +15,8 @@
     },
     "projects": {
       "title": "My Projects",
-      "view": "View on GitHub"
+      "view": "View on GitHub",
+      "message": "Page under construction"
     }
   }
   
