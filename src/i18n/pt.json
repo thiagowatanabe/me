@@ -15,9 +15,12 @@
       "downloadCV": "Baixar currículo"
     },
     "projects": {
-      "title": "Meus Projetos",
-      "view": "Ver no GitHub",
-      "message": "Página em construção"
-    }
+    "title": "Projetos",
+    "view": "Ver no GitHub",
+    "fork": "Fork",
+    "showForks": "Mostrar Forks",
+    "hideForks": "Ocultar Forks",
+    "updated": "Atualizado em"
+  }
   }
   

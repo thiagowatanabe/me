@@ -15,9 +15,12 @@
       "downloadCV": "Download CV"
     },
     "projects": {
-      "title": "My Projects",
-      "view": "View on GitHub",
-      "message": "Page under construction"
-    }
+    "title": "Projects",
+    "view": "View on GitHub",
+    "fork": "Fork",
+    "showForks": "Show Forks",
+    "hideForks": "Hide Forks",
+    "updated": "Updated on"
+  }
   }
   
