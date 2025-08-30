@@ -6,7 +6,8 @@
       "about": "Sobre",
       "contact": "Contato",
       "experience":"Experiência Profissional",
-      "courses": "Cursos"
+      "courses": "Cursos",
+      "articles": "Artigos"
     },
     "home": {
       "greeting": "Olá, eu sou um desenvolvedor de software.",
@@ -15,12 +16,17 @@
       "downloadCV": "Baixar currículo"
     },
     "projects": {
-    "title": "Projetos",
-    "view": "Ver no GitHub",
-    "fork": "Fork",
-    "showForks": "Mostrar Forks",
-    "hideForks": "Ocultar Forks",
-    "updated": "Atualizado em"
-  }
+      "title": "Projetos",
+      "view": "Ver no GitHub",
+      "fork": "Fork",
+      "showForks": "Mostrar Forks",
+      "hideForks": "Ocultar Forks",
+      "updated": "Atualizado em"
+    },
+    "articles": {
+      "title": "Artigos",
+      "published": "Publicado em",
+      "readMore": "Ler no Medium"
+    }
   }
   

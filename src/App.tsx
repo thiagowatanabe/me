@@ -9,6 +9,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Experience } from './pages/Experience';
 import { Courses } from './pages/Courses';
+import { Articles } from './pages/Articles';
 import { LanguageProvider } from './i18n/LanguageProvider';
 import { darkTheme, lightTheme } from './theme';
 
@@ -34,6 +35,7 @@ export default function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/experience" element={<Experience />} />
                 <Route path="/courses" element={<Courses />} />
+                <Route path="/articles" element={<Articles />} />
               </Routes>
             </Box>
 

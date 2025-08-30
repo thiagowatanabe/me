@@ -42,6 +42,7 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, darkMode }) => {
     { text: t('menu.home'), path: '/' },
     { text: t('menu.experience'), path: '/experience' },
     { text: t('menu.projects'), path: '/projects' },
+    { text: t('menu.articles'), path: '/articles' },
     { text: t('menu.courses'), path: '/courses' },
     { text: t('menu.about'), path: '/about' },
     { text: t('menu.contact'), path: '/contact' }
