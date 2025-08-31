@@ -21,17 +21,17 @@ export const Home: React.FC = () => {
   const typedStrings =
     i18n.language === 'pt'
       ? [
-          'Desenvolvedor fullstack.',
-          'Especialista em C# e AWS.',
-          'Amante de React e interfaces criativas.',
-          'Transformo ideias em sistemas modernos e escaláveis.'
-        ]
+        'Desenvolvedor fullstack.',
+        'Especialista em C# e AWS.',
+        'Amante de React e interfaces criativas.',
+        'Transformo ideias em sistemas modernos e escaláveis.'
+      ]
       : [
-          'Fullstack developer.',
-          'Specialist in C# and AWS.',
-          'Passionate about React and creative UIs.',
-          'Transforming ideas into modern, scalable software solutions.'
-        ];
+        'Fullstack developer.',
+        'Specialist in C# and AWS.',
+        'Passionate about React and creative UIs.',
+        'Transforming ideas into modern, scalable software solutions.'
+      ];
 
   return (
     <Container
@@ -55,11 +55,20 @@ export const Home: React.FC = () => {
           alt="Thiago Watanabe"
           src={profileImage}
           sx={{
-            width: 150,
-            height: 150,
-            mb: 3,
+            width: 250,
+            height: 250,
+            mb: 4,
             boxShadow: 6,
             border: '3px solid white',
+            backgroundColor: "white"
+          }}
+          imgProps={{
+            style: {
+              objectFit: "cover",      // Preenche todo o círculo sem distorcer
+              objectPosition: "top",   // Foca na parte superior da imagem
+              width: "100%",
+              height: "100%",
+            }
           }}
         />
       </motion.div>
