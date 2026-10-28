@@ -83,3 +83,45 @@ export const cases: CaseStudy[] = [
     result: undefined,
   },
 ];
+
+
+export type EducationItem = {
+  degree: string;
+  institution: string;
+  period: string;
+  detail?: string;
+};
+
+export const education: EducationItem[] = [
+  {
+    degree: "Specialization in Web Development",
+    institution: "FATEC — Rio Preto College of Technology",
+    period: "2017 — 2018",
+  },
+  {
+    degree: "Bachelor's Degree in Information Systems",
+    institution: "Faculdade UniFAIMI",
+    period: "2007 — 2010",
+  },
+];
+
+export type ProjectItem = {
+  name: string;
+  repo: string;
+  stack: string[];
+  summary: string;
+  year?: string;
+  image?: string;
+};
+
+// Substitua pelos repositórios reais. Não publique com exemplo.
+export const projects: ProjectItem[] = [
+  {
+    name: "DriveMediaDedup",
+    repo: "https://github.com/thiagowatanabe/DriveMediaDedup",
+    stack: [".NET 10", "C#", "Google Drive API", "AWS S3", "Octokit"],
+    summary:
+      "Console tool that migrates a Google Drive media archive to S3: downloads files, removes duplicate images by SHA256 hash, compresses the unique set, uploads the archive and only then deletes the originals.",
+    year: "2026",
+  },
+];

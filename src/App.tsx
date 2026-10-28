@@ -6,6 +6,8 @@ import { ExperienceSection } from "./components/Experience";
 import { CaseStudies } from "./components/CaseStudies";
 import { Stack } from "./components/Stack";
 import { Contact } from "./components/Contact";
+import { EducationSection } from "./components/Education";
+import { Projects } from "./components/Projects";
 
 export default function App() {
   return (
@@ -15,7 +17,9 @@ export default function App() {
         <Hero />
         <About />
         <ExperienceSection />
+        <EducationSection />
         <CaseStudies />
+        <Projects />
         <Stack />
         <Contact />
       </main>
